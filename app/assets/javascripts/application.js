@@ -15,4 +15,8 @@
 //= require turbolinks
 //= require underscore
 //= require backbone
+//= require json2
+//= require backbone.babysitter
+//= require backbone.wreqr
+//= require backbone.marionette
 //= require_tree .
