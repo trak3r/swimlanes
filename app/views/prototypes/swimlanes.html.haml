@@ -1,3 +1,10 @@
 %script=raw(render('swimlanes.js.coffee'))
 
-%h1 hello world
+%script#leg-template{type: 'text/template'}
+  leg
+
+%script#lane-template{type: 'text/template'}
+  lane
+  .legs
+
+#lanes
